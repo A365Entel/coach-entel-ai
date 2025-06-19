@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coach Entel AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Coach Entel AI</h1>
+    <p>Sube tu audio de llamada para recibir un análisis completo</p>
+    <input type="file" id="audioFile" accept="audio/*"/>
+    <button onclick="analizarAudio()">Analizar</button>
+    <h2>Transcripción:</h2>
+    <pre id="transcripcion"></pre>
+    <h2>Análisis del Coach:</h2>
+    <pre id="analisis"></pre>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

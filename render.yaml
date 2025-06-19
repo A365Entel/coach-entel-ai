@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: coach-entel-ai-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+    rootDir: .
